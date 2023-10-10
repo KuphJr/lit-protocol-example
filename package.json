@@ -1,0 +1,34 @@
+{
+  "name": "lit-protocol-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "ts-node encryptAndDecrypt.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lit-protocol/lit-node-client": "^2.2.61",
+    "ethers": "^5.7.2",
+    "siwe": "^2.1.4",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "typescript": "^5.2.2"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "proseWrap": "preserve"
+  }
+}
